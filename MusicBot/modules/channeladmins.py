@@ -11,7 +11,7 @@ from MusicBot.helpers.decorators import errors
 from MusicBot.helpers.filters import command 
 from MusicBot.helpers.filters import other_filters
 from MusicBot.services.callsmusic import callsmusic
-from MusicBot.services.queues import queues
+from MusicBot.services.callsmusic.queues import queues
 
 
 @Client.on_message(filters.command(["channelpause","cpause"]) & filters.group & ~filters.edited)
