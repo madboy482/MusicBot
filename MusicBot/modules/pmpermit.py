@@ -18,7 +18,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DaisyXMusic.services.callsmusic.callsmusic import client as USER
+from MusicBot.services.callsmusic.callsmusic import client as USER
 
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
