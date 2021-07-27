@@ -1,6 +1,8 @@
 # Tesla MusicBot
-
 ### A bot that can play music on Telegram Group and Channel Voice Chats
+
+https://user-images.githubusercontent.com/73926361/126453534-7712ed8b-5dfe-48c2-9178-472981a41967.mp4
+
 #### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
 ### Available on telegram as [@TeslaMusicRoBot](https://telegram.me/TeslaMusicRoBot)
 ### UserBot Helper : [@TeslaMusicPlayer](https://telegram.me/TeslaMusicPlayer)
@@ -23,28 +25,44 @@
 - Channel Music Play
 - Keyboard selection support for youtube play
 
+---
+---
+---
+
 ## 🚀 Deployment
 
-### Heroku
+* 🌐 Heroku:
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMadBoy-X%2FMusicBot&template=https%3A%2F%2Fgithub.com%2FMadBoy-X%2FMusicBot)
+#### Generate String session [IMPORTANT]
+- Get it by running this [![GenerateString](https://img.shields.io/badge/repl.it-GenerateString-redblack)](https://replit.com/@madboy482/Pyrogram-Session)
 
-Get pyrogram (p)  `SESSION` from here:
-[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
+or 
 
-### ⚔ Self-hosting (For Devs) 
+- Run this file [str.py](https://raw.githubusercontent.com/madboy482/MusicBot/Music/str.py) locally.
+
+Then you will get a session string, copy it, then press heroku deploy button.
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmadboy482%2FMusicBot&template=https%3A%2F%2Fgithub.com%2Fmadboy482%2FMusicBot)
+
+---
+
+* ⚔ Self-hosting:
 ```sh
-# Install Git First (apt-instll git)
-$ git clone https://github.com/MadBoy-X/MusicBot
+# Install Git First (apt-install git)
+$ git clone https://github.com/madboy482/MusicBot
 $ cd MusicBot
 # Upgrade sources
 # Install All Requirements 
-$ pip(3) install -r requirements.txt
+$ pip3 install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m MusicBot
+$ python3 -m MusicBot
 ```
+
+---
+---
+---
 
 ### Commands for Group 🛠
 #### For all in group
@@ -90,11 +108,11 @@ For linked group admins only:
 - `/userbotjoinchannel` - invite assistant to your chat
 * channel is also can be used instead of c
 
-If you donlt like to play in linked channel:
+If you don't like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
  3. Add @TeslaMusicRoBot as Channel admin with full perms
- 4. Add helper to channel
+ 4. Add helper to channel (@TeslaMusicPlayer)
  5. Simply send commands in your group.
 
 ### Commands for Sudo Users ⚔️
@@ -132,4 +150,5 @@ If you donlt like to play in linked channel:
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 
 >> This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork Tesla Music Bot won't exist. 
->> Tesla Music Bot is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @TeslaMusicRoBot users.
+>>
+>> Tesla Music Bot is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) that fits the needs of @TeslaMusicRoBot users.
