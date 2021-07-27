@@ -7,8 +7,8 @@ from pyrogram.types import Chat
 from pyrogram.types import Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from DaisyXMusic.services.callsmusic.callsmusic import client as USER
-from DaisyXMusic.config import SUDO_USERS
+from MuiscBot.services.callsmusic.callsmusic import client as USER
+from MuiscBot.config import SUDO_USERS
 
 @Client.on_message(filters.command(["broadcast"]))
 async def broadcast(_, message: Message):
