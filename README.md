@@ -125,11 +125,17 @@ If you don't like to play in linked channel:
 - `.da` - disapproove someone to pm you
 + Sudo Users can execute any command in any groups
 
+---
+---
+---
+
 # Credits 😊
 ## • MADBOY   »»  <a href="https://github.com/madboy482" alt="MadBoy"> <img src="https://img.shields.io/badge/MADBOY-30302f?logo=github" /></a> {DEV}
 
 ## • PRANAV  »»  <a href="https://github.com/Pranav18262" alt="Pranav"> <img src="https://img.shields.io/badge/Pranav-625D5D?logo=github" /></a> {DEV}
 
+---
+---
 
 ### Special Credits --
 - [InukaASiTH](https://github.com/InukaAsith)
@@ -146,8 +152,11 @@ If you don't like to play in linked channel:
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [Original Repo owners](https://github.com/suprojects/CallsMusic)
 
+---
+---
+
 ### Special Thanks to :
-- [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
+- [Rojserbest](http://github.com/rojserbest): Callsmusic Developer
 
 >> This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork Tesla Music Bot won't exist. 
 >>
