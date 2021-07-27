@@ -15,10 +15,10 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import logging
-from DaisyXMusic.modules.msg import Messages as tr
+from MusicBot.modules.msg import Messages as tr
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from DaisyXMusic.config import ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME
+from MusicBot.config import ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME
 logging.basicConfig(level=logging.INFO)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['start']))
@@ -38,7 +38,7 @@ def _start(client, message):
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                         "☢Black-Lightning Web☢", url=f"https://lightninguserbot.blogspot.com")
+                         "🤴 Owner", url=f"https://t.me/Warning_MadBoy_is_Back")
                 ]
             ]
         ),
@@ -96,7 +96,7 @@ def map(pos):
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '☢Black-Lightning Web☢', url=f"https://lightninguserbot.blogspot.com")],
+            [InlineKeyboardButton(text = '🤴 Owner', url=f"https://t.me/Warning_MadBoy_is_Back")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
