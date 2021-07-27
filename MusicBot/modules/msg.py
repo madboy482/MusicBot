@@ -15,7 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import os
-from DaisyXMusic.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
+from MusicBot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
       HELP_MSG = [
@@ -34,7 +34,7 @@ f"""
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
 3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+*) If userbot joined; enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
 
 **For Channel Music Play**
 1) Make me admin of your channel 
@@ -79,9 +79,9 @@ f"""
 - /cend - stop music play
 - /userbotjoinchannel - invite assistant to your chat
 
-channel is also can be used instead of c ( /cplay = /channelplay )
+channel also can be used instead of c ( /cplay = /channelplay )
 
-⚪️ If you donlt like to play in linked group:
+⚪️ If you don't like to play in linked group:
 
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
