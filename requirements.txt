@@ -6,6 +6,7 @@ youtube_dl
 youtube_search_python
 requests
 aiohttp
+aiohttp_session
 aiofiles
 asyncio
 youtube_search
