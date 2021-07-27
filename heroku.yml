@@ -1,5 +1,5 @@
 build:
   docker:
-    Tesla: Dockerfile
+    worker: Dockerfile
 run:
-  Tesla: python3 -m MusicBot
+  worker: python3 -m MusicBot
