@@ -140,7 +140,7 @@ If you don't like to play in linked channel:
 ### Special Credits --
 - [InukaASiTH](https://github.com/InukaAsith)
 - [Technical-Hunter](https://github.com/Technical-Hunter)
-- [Rojserbest](http://github.com/rojserbes)
+- [Rojserbest](http://github.com/rojserbest)
 - [Wrench](https://github.com/EverythingSuckz/)
 - [Bemro](https://github.com/bemroofficial)
 - [QueenArzoo](https://github.com/QueenArzoo)
